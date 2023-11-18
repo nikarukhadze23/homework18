@@ -1,0 +1,17 @@
+@media (width > 1440px){
+    .infos{
+        display: flex;
+        flex-direction: row;
+    }
+    .info2{
+        width: 350px;
+        height: 500px;
+        flex-shrink: 0;
+        padding-top: 54px;
+    }
+    .container{
+        background-image: url(assets/back1.svg) , url(assets/back2.svg);
+        background-repeat: no-repeat;
+        background-position: 100% 0 , 0% 100%;
+    }
+}
